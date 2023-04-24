@@ -9,8 +9,8 @@ Garrett Gularson (B)
 
 Tony Popa (A)
 
-# Twisted-Tea Robot
-In this project, you will learn how to make a twisted tea RC robot. The aesthetic for this robot is completely up to you, but in our case we will be using twiswted tea as our box design
+# RC Car 
+In this project, you will learn how to make a RC robot using an Mbed microcontroller and a few other parts. This will be fully controllable by your phone!
  
 
 ## Parts Required

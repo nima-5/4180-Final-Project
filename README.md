@@ -1,8 +1,12 @@
 # 4180-Final-Project
 This Project holds the code related to the 4180 Final group Project of
+
 Sean Nima (B)
+
 Corey Meyer (B)
+
 Garrett Gularson (B)
+
 Tony Popa (A)
 
 # Twisted-Tea Robot

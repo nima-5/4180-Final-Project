@@ -129,10 +129,17 @@ In this section you will learn how to connect and control the robot. As mentione
 
 1. Connect to you're RS 232 using the Adafruit bluetooth connect app
 
-![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/IMG_2440.jpeg =211X292)
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/IMG_2440.jpg)
 
-2. Once you're connected go to ... and then open ...
-3. Control the RC car as you see fit!
+2. Once you're connected go to controller and then open control pad
+
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/IMG_2439.jpg)
+
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/IMG_2438.jpg)
+
+3. Control the RC car as you see fit using the buttons below!
+
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/IMG_2437.jpg)
 
 
 

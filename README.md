@@ -134,6 +134,13 @@ Note: Do not forget to wire the Anode section of the LED through a 330 ohm resis
 
 ![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.13.20%20PM.png)
 
+## Uploading files to the mbed
+
+At this point, you have everything wired up. All that's left for setup is building and compiling the code onto the online compiler.
+
+In Keil studio, paste in all the files from the src folder in this github to an Mbed OS 2 project. Afterwards, compile the code and save the file to your Mbed while it is plugged in. Voila! You're ready to use your robot!
+
+
 ## Connecting and Controlling the Robot
 
 In this section you will learn how to connect and control the robot. As mentioned in step 4 previously, please be sure to download the Adafruit Bluetooth App as that will be how we control the RC car that we have created.

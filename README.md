@@ -16,4 +16,20 @@ Tony Popa (A)
 4. PWM Servo Motor
 5. 2x LED Diode
 6. TOF Distance Sensor
+7. 9V Barrel Jack Adapters
+8. 9V Barrel Battery Packs
+
+
+
+##Building the Robot
+Once you have accumulated all of the parts above you can begin to build the project together.
+
+1. Wiring of the 9V Barrel Jacks
+ 1.
+ | Wire | Connector  | Connector 2 |
+ | ---- | ---------  | ----------- |
+ | 5V   | VIN (Mbed) | VIN (RS232) |
+ | GND  | GND (MBED) | GND (RS232) |
+
+
 

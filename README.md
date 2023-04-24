@@ -33,6 +33,7 @@ Once you have accumulated all of the parts above you can begin to build the proj
 
 
 2. Setting Up H-bridge 1.  This list follows the pinouts on the H-bridge board from top left side down, then top right of the board down. (Note: Use the image reference to determine which is motor is which)
+
 The H-Bridge motor driver is an essential part to the RC car. This is the device that will communicate with the motors and tell them what needs to be down (whether to rotate clockwise or counter-clockwise). We use 2 of these to control all four motor. Something to note about this device is although the board can be powered using the 3.3 V from the Mbed Vout pin, the power required to spin the motors are a lot higher, so we will use external power sources to power the motors.
 
 | Pin | Connection |
@@ -77,6 +78,7 @@ The H-Bridge motor driver is an essential part to the RC car. This is the device
 
 
 4. Wiring the RS232 Bluetooth Serial Adapter
+
 Now we will move on to setting up the Bluetooth Serial Adapter with the Mbed. This serial adapter will allow us to communicate with motors through the Adafruit Bluetooth BLE App. If you have not yet installed this, please install the App. Note: The RS232 bluetooth adapter we use requires a 5V Power Supply, so remember to use a power supply from the barrel jack when wiring the board up.
 
 | Pin | Connection |
@@ -92,6 +94,7 @@ Now we will move on to setting up the Bluetooth Serial Adapter with the Mbed. Th
 
 
 5. Wiring the ToF sensor
+
 This next part, we will be setting up the ToF (Time of Flight) distance sensor. The ToF sensor uses lidar technology to determine how far something is from the sensor.  This sensor is required to ensure that the robot does not run into any walls. When the robot detects that the robot is within X meters of a wall, the robot will be set to reverse for a little bit of distance.
 
 
@@ -106,6 +109,7 @@ This next part, we will be setting up the ToF (Time of Flight) distance sensor. 
 | XSHUT | p20 (Mbed) | 
 
 6. Wiring the LED Diode
+
 LED Diode that is added on to have a visible light notification for the driver. Allows easy sense of sight to the robot in the dark.
 Note: Do not forget to wire the Anode section of the LED through a 330 ohm resistor.
 

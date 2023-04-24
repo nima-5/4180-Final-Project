@@ -123,7 +123,13 @@ Note: Do not forget to wire the Anode section of the LED through a 330 ohm resis
 | Cathode | GND | 
 
 
+## Connecting and Controlling the Robot
 
+In this section you will learn how to connect and control the robot. As mentioned in step 4 previously, please be sure to download the Adafruit Bluetooth App as that will be how we control the RC car that we have created.
+
+1. Connect to you're RS 232 using the Adafruit bluetooth connect app
+2. Once you're connected go to ... and then open ...
+3. Control the RC car as you see fit!
 
 
 

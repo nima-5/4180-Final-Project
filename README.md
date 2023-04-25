@@ -9,8 +9,8 @@ Garrett Gularson (B)
 
 Tony Popa (A)
 
-# Twisted-Tea Robot
-In this project, you will learn how to make a twisted tea RC robot. The aesthetic for this robot is completely up to you, but in our case we will be using twiswted tea as our box design
+# RC Car 
+In this project, you will learn how to make a RC robot using an Mbed microcontroller and a few other parts. This will be fully controllable by your phone!
  
 
 ## Parts Required
@@ -28,12 +28,14 @@ In this project, you will learn how to make a twisted tea RC robot. The aestheti
 ## Building the Robot
 Once you have accumulated all of the parts above you can begin to build the project together.
 
-1. Setting up the Mbed.
+1. Setting up the Mbed. In the end, the MBED should look a lot like the block diagram below.
 
 | Pin | Connection |
 | :-----: | :--------: |
 | VIN | 5V (Barrel Jack 2) |
 | GND | GND (Common) |
+
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.06.54%20PM.png)
 
 
 2. Setting Up H-bridge 1.  This list follows the pinouts on the H-bridge board from top left side down, then top right of the board down. (Note: Use the image reference to determine which is motor is which)
@@ -59,6 +61,8 @@ The H-Bridge motor driver is an essential part to the RC car. This is the device
 | PWMB | p23 (Mbed) |
 | GND | GND (Common) |
 
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.07.02%20PM.png)
+
 3. Setting Up H-bridge 2 (Refer to notes from H-bridge 1)
 
 | Pin | Connection |
@@ -80,6 +84,8 @@ The H-Bridge motor driver is an essential part to the RC car. This is the device
 | PWMB | p21 (Mbed) |
 | GND | GND (Common) |
 
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.07.10%20PM.png)
+
 
 4. Wiring the RS232 Bluetooth Serial Adapter
 
@@ -95,6 +101,8 @@ Now we will move on to setting up the Bluetooth Serial Adapter with the Mbed. Th
 | RTS | NC |
 | GND | GND (Common) |
 | OFU | NC | 
+
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.06.58%20PM.png)
 
 
 5. Wiring the ToF sensor
@@ -112,6 +120,8 @@ This next part, we will be setting up the ToF (Time of Flight) distance sensor. 
 | GPIO | NC |
 | XSHUT | p20 (Mbed) | 
 
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.07.06%20PM.png)
+
 6. Wiring the LED Diode
 
 LED Diode that is added on to have a visible light notification for the driver. Allows easy sense of sight to the robot in the dark.
@@ -121,6 +131,14 @@ Note: Do not forget to wire the Anode section of the LED through a 330 ohm resis
 | :-----: | :--------: |
 | Anode | p26 (Mbed) |
 | Cathode | GND | 
+
+![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.13.20%20PM.png)
+
+## Uploading files to the mbed
+
+At this point, you have everything wired up. All that's left for setup is building and compiling the code onto the online compiler.
+
+In Keil studio, paste in all the files from the src folder in this github to an Mbed OS 2 project. Afterwards, compile the code and save the file to your Mbed while it is plugged in. Voila! You're ready to use your robot!
 
 
 ## Connecting and Controlling the Robot

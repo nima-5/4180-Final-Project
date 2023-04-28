@@ -9,9 +9,10 @@ Garrett Gularson (B)
 
 Tony Popa (A)
 
-# RC Car 
+# Twea RC Car 
 In this project, you will learn how to make a RC robot using an Mbed microcontroller and a few other parts. This will be fully controllable by your phone!
  
+ ![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Robot.jpg)
 
 ## Parts Required
 1. 1x MBED LPC 1768

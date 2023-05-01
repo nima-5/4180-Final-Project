@@ -11,7 +11,9 @@ Tony Popa (A)
 
 # Twea RC Car 
 In this project, you will learn how to make a RC robot using an Mbed microcontroller and a few other parts. This will be fully controllable by your phone!
- 
+
+Link to video Demo: https://youtu.be/9PCvtp59MOA
+
  ![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Robot.jpg)
 
 ## Parts Required
@@ -37,7 +39,6 @@ Once you have accumulated all of the parts above you can begin to build the proj
 | GND | GND (Common) |
 
 ![alt text](https://github.com/nima-5/4180-Final-Project/blob/main/Images/Screenshot%202023-04-24%20at%207.06.54%20PM.png)
-
 
 2. Setting Up H-bridge 1.  This list follows the pinouts on the H-bridge board from top left side down, then top right of the board down. (Note: Use the image reference to determine which is motor is which)
 
